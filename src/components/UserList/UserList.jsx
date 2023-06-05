@@ -14,24 +14,27 @@ export default function UsersList() {
   const [followCheck, setFollowCheck] = useState('');
   const limit = 3;
 
-  useEffect(() => {
-    const getUsers = async ({ page, limit, selected }) => {
-      try {
-        return await fetchUsers(page, limit, selected).then(data => {
-          if (data && data.length < limit) {
-            setShowLoadMoreBtn(false);
-          } else {
-            setShowLoadMoreBtn(true);
-          }
-          setUsers([...users, ...data]);
-        });
-      } catch (error) {
-        alert(error);
-      }
-    };
-
-    getUsers({ page: pageNumber, limit: limit, selected: followCheck });
-  }, [pageNumber, followCheck]);
+  useEffect(
+    () => {
+      const getUsers = async ({ page, limit, selected }) => {
+        try {
+          return await fetchUsers(page, limit, selected).then(data => {
+            if (data && data.length < limit) {
+              setShowLoadMoreBtn(false);
+            } else {
+              setShowLoadMoreBtn(true);
+            }
+            setUsers([...users, ...data]);
+          });
+        } catch (error) {
+          alert(error);
+        }
+      };
+      getUsers({ page: pageNumber, limit: limit, selected: followCheck });
+    },
+    /* eslint-disable */
+    [pageNumber, followCheck]
+  );
 
   const handleLoadMore = () => {
     setPageNumber(pageNumber + 1);
