@@ -23,7 +23,6 @@ export default function UsersList() {
           } else {
             setShowLoadMoreBtn(true);
           }
-
           setUsers([...users, ...data]);
         });
       } catch (error) {
@@ -32,7 +31,7 @@ export default function UsersList() {
     };
 
     getUsers({ page: pageNumber, limit: limit, selected: followCheck });
-  }, [pageNumber, followCheck, users]);
+  }, [pageNumber, followCheck]);
 
   const handleLoadMore = () => {
     setPageNumber(pageNumber + 1);
