@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/tech-task/static/css/main.9355cc33.css",
+    "main.js": "/tech-task/static/js/main.46c6e465.js",
+    "static/css/331.83940a18.chunk.css": "/tech-task/static/css/331.83940a18.chunk.css",
+    "static/js/331.bae2dfed.chunk.js": "/tech-task/static/js/331.bae2dfed.chunk.js",
+    "static/css/936.ebfdff02.chunk.css": "/tech-task/static/css/936.ebfdff02.chunk.css",
+    "static/js/936.a1a73a19.chunk.js": "/tech-task/static/js/936.a1a73a19.chunk.js",
+    "static/css/287.be36d480.chunk.css": "/tech-task/static/css/287.be36d480.chunk.css",
+    "static/js/287.a58ba844.chunk.js": "/tech-task/static/js/287.a58ba844.chunk.js",
+    "static/css/666.57d6328e.chunk.css": "/tech-task/static/css/666.57d6328e.chunk.css",
+    "static/js/666.18dca708.chunk.js": "/tech-task/static/js/666.18dca708.chunk.js",
+    "static/js/76.35528a3e.chunk.js": "/tech-task/static/js/76.35528a3e.chunk.js",
+    "static/media/pictureLogo.svg": "/tech-task/static/media/pictureLogo.314627497e789bec9e5038f651dae1d4.svg",
+    "static/media/picture.png": "/tech-task/static/media/picture.032662a2a907475127d7.png",
+    "index.html": "/tech-task/index.html",
+    "main.9355cc33.css.map": "/tech-task/static/css/main.9355cc33.css.map",
+    "main.46c6e465.js.map": "/tech-task/static/js/main.46c6e465.js.map",
+    "331.83940a18.chunk.css.map": "/tech-task/static/css/331.83940a18.chunk.css.map",
+    "331.bae2dfed.chunk.js.map": "/tech-task/static/js/331.bae2dfed.chunk.js.map",
+    "936.ebfdff02.chunk.css.map": "/tech-task/static/css/936.ebfdff02.chunk.css.map",
+    "936.a1a73a19.chunk.js.map": "/tech-task/static/js/936.a1a73a19.chunk.js.map",
+    "287.be36d480.chunk.css.map": "/tech-task/static/css/287.be36d480.chunk.css.map",
+    "287.a58ba844.chunk.js.map": "/tech-task/static/js/287.a58ba844.chunk.js.map",
+    "666.57d6328e.chunk.css.map": "/tech-task/static/css/666.57d6328e.chunk.css.map",
+    "666.18dca708.chunk.js.map": "/tech-task/static/js/666.18dca708.chunk.js.map",
+    "76.35528a3e.chunk.js.map": "/tech-task/static/js/76.35528a3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9355cc33.css",
+    "static/js/main.46c6e465.js"
+  ]
+}
