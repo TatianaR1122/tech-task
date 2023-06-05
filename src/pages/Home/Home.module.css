@@ -1,0 +1,12 @@
+.homeContainer {
+  flex-wrap: wrap;
+  margin: 150px auto;
+  gap: 100px;
+  justify-content: center;
+}
+
+.title {
+  font-size: 56px;
+  color: #ebd8ff;
+  text-shadow: 2px 2px 4px #646cffaa;
+}
